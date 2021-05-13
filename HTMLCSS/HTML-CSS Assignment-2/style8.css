@@ -1,0 +1,17 @@
+p{
+    background-color: lightcyan;
+    border: 1px solid black;
+    padding: 3px;;
+}
+.a
+{
+    border-width: thick;
+}
+.b
+{
+    border-width: medium;
+}
+.c
+{
+    border-width: thin;
+}

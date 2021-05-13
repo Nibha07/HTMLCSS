@@ -1,0 +1,100 @@
+body {
+				font-family: Helvetica, sans-serif;
+				color: #f2f2f2;
+				font-size: 1.2rem;
+			 background: linear-gradient(115deg,
+			 		rgba(58, 58, 158, 0.5),
+      rgba(136, 136, 206, 0.4)),  url(survey2.jpg);
+				background-size: cover;		
+				background-position: center;
+				max-width: 100%;
+				height: 100vh;
+				margin: 0;
+				word-wrap: break-word;
+				}
+
+header {
+				padding-top: 30px;
+				padding-bottom: 30px;
+				}
+
+p.head {
+				font-size: 2.5rem;
+				font-weight: bold;
+				text-align: center;
+				margin: 15px;
+				padding: 10px;
+				}
+
+p.emp {
+     font-weight: lighter;
+     font-style: italic;
+     text-align: center;
+     text-shadow: 0.01rem 0.01rem 0.1rem black;
+				}
+
+form {
+				background-color: #1f2645;
+				margin-left: 0;
+				padding: 50px 20px 20px 20px;
+				opacity: 0.8;
+				filter: alpha(opacity=80);
+				border-radius: 10px;
+				width: 100%;
+				margin: 0 auto;
+     }
+				
+label {
+				padding-bottom: 20px;
+				}				
+
+.lab {
+				margin-bottom: 20px;
+				}
+
+.one {
+				border: 1px solid #c6c7cc;
+				border-radius: 5px;
+				width: 100%;
+				height: 40px;
+				padding: 10px;
+				
+				
+				}
+
+.radio1, .box {
+				float: left;
+				margin-right: 0.7rem;
+				margin-bottom: 0.5rem;
+				}
+				
+article:after {
+				content: " ";
+				display: table;
+				clear: both;
+				}
+
+textarea {
+				width: 100%;
+				padding: 10px 0 0 10px;
+				}
+
+.submit {
+				background-color: #00a536;
+				font-size: 1.3rem;
+				color: #ffffff;
+				border: none;
+				border-radius: 3px;
+				text-align: center;
+				width: 100%;
+				height: 40px;
+				}
+
+body, form, .one, textarea, .submit {
+				box-sizing: border-box;
+				}
+
+#content{
+	margin-right:200px;
+	margin-left:200px
+}
